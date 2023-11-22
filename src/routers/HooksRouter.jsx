@@ -3,12 +3,13 @@ import { Route, Routes } from "react-router-dom";
 import UseEffectExample from "../examples/hooks/UseEffectExample";
 import UseLayoutEffectExample from "../examples/hooks/UseLayouteEffectExample/UseLayoutEffectExample";
 import ErrorPage from "../pages/ErrorPage";
+import UseStateExample from "../examples/hooks/UseStateExample";
 
 const HooksRouter = () => {
   return (
     <Routes>
       <Route path="/" element={<div>use state</div>} />
-      <Route path="use-state" element={<div>use state</div>} />
+      <Route path="use-state" element={<UseStateExample/>} />
       <Route path="use-effect" element={<UseEffectExample />} />
       <Route path="use-context" element={<div>use context</div>} />
       <Route path="use-reducer" element={<div>use reducer</div>} />
