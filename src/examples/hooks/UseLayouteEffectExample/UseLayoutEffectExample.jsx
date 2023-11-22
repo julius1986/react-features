@@ -3,7 +3,7 @@ import Container from "../../../components/Container";
 import Title from "../../../components/Title";
 import Paragraph from "../../../components/Paragraph";
 import List from "../../../components/List";
-import ExampleObjext from "./ExampleObjext";
+import ExampleObject from "./ExampleObject";
 
 const UseLayoutEffectExample = () => {
   return (
@@ -41,7 +41,7 @@ const UseLayoutEffectExample = () => {
           ]}
         />
       </Container>
-      <ExampleObjext/>
+      <ExampleObject />
     </>
   );
 };

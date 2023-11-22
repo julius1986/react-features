@@ -19,7 +19,7 @@ const divStyles = {
   display: "inline-block",
 };
 
-const ExampleObjext = () => {
+const ExampleObject = () => {
   const [someTextUseEffect, setSomeTextUseEffect] = useState(textInit);
   const [someTextUseLayoutEffect, setSomeTextUseLayoutEffect] =
     useState(textInit);
@@ -69,4 +69,4 @@ const ExampleObjext = () => {
   );
 };
 
-export default ExampleObjext;
+export default ExampleObject;
