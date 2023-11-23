@@ -15,6 +15,7 @@ const Menu = () => {
       <Link to={"hooks/use-Imperative-handle"}>useImperativeHandle</Link>
       <Link to={"hooks/use-debug-value"}>useDebugValue</Link>
       <Link to={"hooks/use-transition"}>useTransition</Link>
+      <Link to={"hooks/use-deferred-value"}>useDeferredValue</Link>
     </div>
   );
 };

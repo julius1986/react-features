@@ -5,6 +5,7 @@ import UseLayoutEffectExample from "../examples/hooks/UseLayouteEffectExample/Us
 import ErrorPage from "../pages/ErrorPage";
 import UseStateExample from "../examples/hooks/UseStateExample";
 import UseTransitionExample from "../examples/hooks/UseTransitionExample";
+import UseDeferredValueExamle from "../examples/hooks/useDeferredValueExample";
 
 const HooksRouter = () => {
   return (
@@ -24,6 +25,7 @@ const HooksRouter = () => {
       />
       <Route path="use-debug-value" element={<div>use debug value</div>} />
       <Route path="use-transition" element={<UseTransitionExample />} />
+      <Route path="use-deferred-value" element={<UseDeferredValueExamle />} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>
   );
