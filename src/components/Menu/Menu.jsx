@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Menu = () => {
   return (
     <div>
+      <Link to={"suspense"}>Suspense</Link>
       <Link to={"hooks/use-state"}>useState</Link>
       <Link to={"hooks/use-effect"}>useEffect</Link>
       <Link to={"hooks/use-context"}>useContext</Link>
