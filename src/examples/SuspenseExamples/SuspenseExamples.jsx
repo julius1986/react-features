@@ -3,7 +3,6 @@ import Container from "../../components/Container";
 import Title from "../../components/Title";
 import Paragraph from "../../components/Paragraph";
 import LazyExample from "./LazyExample";
-import FetchExample from "./FetchExmaple/FetchExample";
 
 const SuspenseExamples = () => {
   return (
