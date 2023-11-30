@@ -31,13 +31,13 @@ const Menu = React.memo(() => {
 
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
+          <Link className="navbar-item" to={"suspense"}>
+            Suspense
+          </Link>
           <div className="navbar-item has-dropdown">
             <p className="navbar-link">Hooks</p>
 
             <div className="navbar-dropdown">
-              <Link className="navbar-item" to={"suspense"}>
-                Suspense
-              </Link>
               <Link className="navbar-item" to={"hooks/use-state"}>
                 useState
               </Link>
