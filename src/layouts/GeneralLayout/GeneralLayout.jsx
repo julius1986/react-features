@@ -6,7 +6,13 @@ const GeneralLayout = () => {
   return (
     <>
       <Menu />
-      <Outlet />
+      <div className="container">
+        <div className="section">
+          <div className="content">
+            <Outlet />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
