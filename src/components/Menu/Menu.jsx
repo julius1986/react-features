@@ -35,7 +35,7 @@ const Menu = React.memo(() => {
             Suspense
           </Link>
           <div className="navbar-item has-dropdown">
-            <p className="navbar-link">Hooks</p>
+            <Link to={"hooks"} className="navbar-link">Hooks</Link>
 
             <div className="navbar-dropdown">
               <Link className="navbar-item" to={"hooks/use-state"}>

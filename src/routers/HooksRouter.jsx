@@ -6,11 +6,12 @@ import ErrorPage from "../pages/ErrorPage";
 import UseStateExample from "../examples/hooks/UseStateExample";
 import UseTransitionExample from "../examples/hooks/UseTransitionExample";
 import UseDeferredValueExamle from "../examples/hooks/useDeferredValueExample";
+import HooksPage from "../pages/HooksPage";
 
 const HooksRouter = () => {
   return (
     <Routes>
-      <Route path="/" element={<div>use state</div>} />
+      <Route index element={<HooksPage/>} />
       <Route path="use-state" element={<UseStateExample />} />
       <Route path="use-effect" element={<UseEffectExample />} />
       <Route path="use-context" element={<div>use context</div>} />
