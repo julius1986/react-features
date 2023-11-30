@@ -15,18 +15,16 @@ const Menu = React.memo(() => {
             alt="blablalba"
           />
         </a>
-        <a
-          role="button"
+        <button
           className="navbar-burger"
           aria-label="menu"
           aria-expanded="false"
           id="burger-button"
-          href="##"
         >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+        </button>
       </div>
 
       <div id="navbarBasicExample" className="navbar-menu">
