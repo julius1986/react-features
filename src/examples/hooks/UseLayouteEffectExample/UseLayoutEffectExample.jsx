@@ -11,13 +11,13 @@ const UseLayoutEffectExample = () => {
       <Container>
         <Title>Хук "useLayoutEffect"</Title>
         <Paragraph>
-          Хук аналогичен useEffect, за исключением того, что блокирует отрисовку
-          виртуального DOM в реальный.
+          Хук аналогичен <code>useEffect</code>, за исключением того, что
+          блокирует отрисовку виртуального DOM в реальный.
         </Paragraph>
         <Paragraph>
-          Выполняется сразу после рендеринга компонента(так же как и useEffect).
-          Выполняется раньше useEffect. Аналог useDidMount в классовых
-          компонентах.
+          Выполняется сразу после рендеринга компонента(так же как и
+          <code>useEffect</code>). Выполняется раньше <code>useEffect</code>.
+          Аналог useDidMount в классовых компонентах.
         </Paragraph>
         <Paragraph>Используется если необходимо:</Paragraph>
         <List

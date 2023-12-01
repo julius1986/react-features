@@ -14,8 +14,8 @@ const SuspenseExamples = () => {
       </Paragraph>
       <Paragraph>
         Используется для вывода спиннера(загрузки) при ленивой загрузке, а так
-        же при получении данных с сервера(пока только next.js в обычном react в
-        разработке React.use).
+        же при получении данных с сервера(пока только next.js, в обычном react
+        находится в разработке <code>React.use</code>).
       </Paragraph>
       <LazyExample />
     </Container>

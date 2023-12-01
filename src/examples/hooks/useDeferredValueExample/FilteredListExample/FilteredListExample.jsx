@@ -48,27 +48,29 @@ const FilteredListExample = () => {
     <Container>
       <Title>Пример с фильтрованным списком.</Title>
       <Paragraph>
-        В данном примере у нас будет 2 поля input и список из чисел. В одном
-        input мы будем использовать useDefferedValue во втором нет.
+        В данном примере у нас будет 2 поля <code>input</code> и список из чисел. В одном
+        input мы будем использовать <code>useDefferedValue</code> во втором нет.
         <b>Для лучшей наглядности можно замедлить процессор.</b>
       </Paragraph>
       <Paragraph>
         В первой колонке мы просто выводим список как только у нас меняется
-        input.
+        <code>input</code>.
       </Paragraph>
       <Paragraph>
         Во второй колонке мы передает отложенное значение для фильтра.
-        Используем useDeferredValue. Пу сути это аналог debounce.
+        Используем <code>useDeferredValue</code>. Пу сути это аналог debounce.
       </Paragraph>
       <Paragraph>
         В третьей колонке мы используем отложенное значение, а так же прерывания
-        рендера с помощь useTransition. Однако так как у нас элементы списка это
-        простые числа не требующие вычислений это не сильно эффективно.
+        рендера с помощь <code>useTransition</code>. Однако так как у нас
+        элементы списка это простые числа не требующие вычислений это не сильно
+        эффективно.
       </Paragraph>
 
       <Paragraph>
         В третьем примере мы могли бы использовать useTransition вместо
-        useDeferredValue. Однако теоретически лучше все сразу использовать.
+        <code>useDeferredValue</code>. Однако теоретически лучше все сразу
+        использовать.
       </Paragraph>
 
       <div style={{ display: "flex", justifyContent: "space-around" }}>

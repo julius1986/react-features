@@ -9,10 +9,11 @@ const UseEffectExample = () => {
     <Container>
       <Title>Хук useEffect</Title>
       <Paragraph>
-        Хук useEffect выполняет побочные эффекты, не блокирует отображение
-        реального DOM. С помощью данного хука реализуются функции жизненного
-        цикла классового компонента такие как componentDidMount,
-        componentDidUpdate, componentWillUnmount.
+        Хук <code>useEffect</code> выполняет побочные эффекты, не блокирует
+        отображение реального DOM. С помощью данного хука реализуются функции
+        жизненного цикла классового компонента такие как
+        <code>componentDidMount</code>, <code>componentDidUpdate</code>,
+        <code>componentWillUnmount</code>.
       </Paragraph>
 
       <Paragraph>
@@ -22,8 +23,9 @@ const UseEffectExample = () => {
 
       <Paragraph>
         Если же мы обьявим простую переменную внутри фукции, она будет
-        существовать до перерендера компонента. В отличии от useRef. Так же мы
-        можем обьявить переменную вне функции, получится анало useRef.
+        существовать до перерендера компонента. В отличии от <code>useRef</code>
+        . Так же мы можем обьявить переменную вне функции, получится анало
+        <code>useRef</code>.
       </Paragraph>
       <ExampleLifecycle />
     </Container>

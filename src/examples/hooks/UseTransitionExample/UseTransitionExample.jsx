@@ -15,9 +15,11 @@ const UseTransitionExample = () => {
       </Paragraph>
       <Paragraph>
         Возвращает 2 параметра. 1й - происходит ли transition, 2й -
-        функция(только синхронная) для старта transition в которую передают
-        логику которая изменяет состояние setState. Если мы не используем
-        setState то для этого есть хук useDefferedValue.
+        функция(только синхронная) для старта <code>transition</code> в которую
+        передают логику которая изменяет состояние <code>setState</code>. Если
+        мы не используем
+        <code>setState</code> то для этого есть хук
+        <code>useDefferedValue</code>.
       </Paragraph>
       <Paragraph>
         Можно использовть при фильтрации, а так же при переходе страниц или

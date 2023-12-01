@@ -9,7 +9,7 @@ const useDeferredValueExample = () => {
     <Container>
       <Title>Хук useDeferredValue</Title>
       <Paragraph>
-        По сути это аналог debaunce. Позволяет производить рендер со старым
+        По сути это аналог <code>debaunce</code>. Позволяет производить рендер со старым
         значением, пока новое значение изменяется(вводится)
       </Paragraph>
 

@@ -24,10 +24,16 @@ const CountExample = () => {
       <Title>Пример со счетчиком</Title>
       <Paragraph>
         В данном примере у нас будет 2 счетчика. Один будет изменяться с помощью
-        функции <b>setCount(count+1)</b>. Второй будет изменяться с помощью
-        функции <b>setCount(prevCount=&gt;prevCount+1)</b> В обоих случая мы
-        будем увеличивать счетчик 3 раза(3 раза будем вызывать функцию
-        setCount).
+        функции
+        <b>
+          <code>setCount(count+1)</code>
+        </b>
+        . Второй будет изменяться с помощью функции
+        <b>
+          <code>setCount(prevCount=&gt;prevCount+1)</code>
+        </b>
+        В обоих случая мы будем увеличивать счетчик 3 раза(3 раза будем вызывать
+        функцию setCount).
       </Paragraph>
       <Container>Счетчик setCount(count + 1): {firstCount}</Container>
       <Container>
